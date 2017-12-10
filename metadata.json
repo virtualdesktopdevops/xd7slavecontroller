@@ -1,0 +1,41 @@
+{
+  "author": "virtualdesktopdevops",
+  "dependencies": [
+	{ 
+		"name": "puppetlabs/registry", 
+		"version_requirement": ">= 1.1.4"
+	},
+	{ 
+		"name": "puppetlabs/dsc", 
+		"version_requirement": ">= 1.4.0"
+	}
+  ],
+  "license": "Apache-2.0",
+  "name": "virtualdesktopdevops-xd7slavecontroller",
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "windows",
+      "operatingsystemrelease": [
+        "Server 2012 R2",
+        "Server 2016"
+      ]
+    }
+  ],
+  "project_page": "http://www.virtualdesktopdevops.com",
+  "requirements": [
+  	{
+      "name": "puppet",
+      "version_requirement": ">= 3.8.0 < 6.0.0"
+    }
+  ],
+  "source": "http://www.virtualdesktopdevops.com",
+  "summary": "Xendesktop 7.x secondary Delivery Controller installation & registration to existing Xendesktop site",
+  "tags": [
+    "powershell",
+    "dsc",
+    "xendesktop",
+    "citrix",
+    "delivery-controller"
+  ],
+  "version": "1.0.0"
+}
