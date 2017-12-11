@@ -26,7 +26,7 @@ class xd7slavecontroller::joinsite inherits xd7slavecontroller {
 	   }',
     dsc_setscript => 'Add-PSSnapin -Name Citrix.Broker.Admin.V2 -ErrorAction SilentlyContinue
 	   Set-BrokerSite -TrustRequestsSentToTheXmlServicePort $true',
-	dsc_psdscrunascredential => {'user' => $svc_username, 'password' => $svc_password}
+    dsc_psdscrunascredential => {'user' => $svc_username, 'password' => $svc_password}
   }
 	
 }
