@@ -1,1 +1,14 @@
+title: XenDesktop 7 Delivery Controller (slave) puppet module
+description: Puppet module installing a fully working Citrix XenDesktop 7.x Delivery Controller and registering it to an existing XenApp/XenDesktop 7.x site. SSL configuration included for enterprise grade deployments. 
+google_site_verification: R71XDERzPOp9lUudi8X6iKrpcoIgDG_1HzRMz_TMaDY
+google_analytics: UA-12767493-6
 theme: jekyll-theme-slate
+show_downloads: true
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-redirect-from
+  - jekyll-mentions
+#jekyll-mentions:
+  #base_url: http://www.virtualdesktopdevops.com/
